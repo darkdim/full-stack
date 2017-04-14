@@ -1,0 +1,13 @@
+name = Rn page
+description = Provides module rn_page for test task.
+package = Other
+core = 7.x
+
+; Features
+dependencies[] = feature_user_page_views
+
+; Modules
+dependencies[] = jquery_update
+
+; Scripts
+scripts[] = js/script.js

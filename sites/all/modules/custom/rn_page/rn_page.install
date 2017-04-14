@@ -1,0 +1,17 @@
+<?php
+
+/**
+ * @file
+ * Install, update and uninstall functions for Test module.
+ */
+
+/**
+ *
+ */
+function rn_page_update_7001() {
+
+  // Enable the Rabbit Hole nodes module.
+  if (!module_exists('feature_user_page_views')) {
+    module_enable(array('feature_user_page_views'));
+  }
+}
